@@ -134,7 +134,7 @@ export default function App() {
                 />
               </View>
               {errors.ProductLabel && touched.ProductLabel ? (
-                <Text>
+                <Text style={{color: 'red', marginLeft: 5}}>
                   <ErrorMessage name="ProductLabel" />
                 </Text>
               ) : null}
@@ -147,11 +147,11 @@ export default function App() {
                   style={{width: 25, height: 25}}
                 />
               </TouchableOpacity>
-              {errors.email && touched.email ? (
-                <Text>
+              {/* {errors.email && touched.email ? (
+                <Text style={{color: 'red', marginLeft: 5}}>
                   <ErrorMessage name="email" />
                 </Text>
-              ) : null}
+              ) : null} */}
               <View style={styles.textFeild}>
                 <TextInput
                   onChangeText={handleChange('quantityInOrder')}
@@ -161,7 +161,7 @@ export default function App() {
                 />
               </View>
               {errors.quantityInOrder && touched.quantityInOrder ? (
-                <Text>
+                <Text style={{color: 'red', marginLeft: 5}}>
                   <ErrorMessage name="quantityInOrder" />
                 </Text>
               ) : null}
@@ -174,7 +174,7 @@ export default function App() {
                 />
               </View>
               {errors.Specifications && touched.Specifications ? (
-                <Text>
+                <Text style={{color: 'red', marginLeft: 5}}>
                   <ErrorMessage name="Specifications" />
                 </Text>
               ) : null}
@@ -188,7 +188,7 @@ export default function App() {
                 />
               </View>
               {errors.productCode && touched.productCode ? (
-                <Text>
+                <Text style={{color: 'red', marginLeft: 5}}>
                   <ErrorMessage name="productCode" />
                 </Text>
               ) : null}
@@ -202,7 +202,7 @@ export default function App() {
                 />
               </View>
               {errors.grade && touched.grade ? (
-                <Text>
+                <Text style={{color: 'red', marginLeft: 5}}>
                   <ErrorMessage name="grade" />
                 </Text>
               ) : null}
@@ -216,7 +216,7 @@ export default function App() {
                 />
               </View>
               {errors.price && touched.price ? (
-                <Text>
+                <Text style={{color: 'red', marginLeft: 5}}>
                   <ErrorMessage name="price" />
                 </Text>
               ) : null}
@@ -229,7 +229,7 @@ export default function App() {
                 />
               </View>
               {errors.bName && touched.bName ? (
-                <Text>
+                <Text style={{color: 'red', marginLeft: 5}}>
                   <ErrorMessage name="bName" />
                 </Text>
               ) : null}
@@ -243,7 +243,7 @@ export default function App() {
                 />
               </View>
               {errors.Squantity && touched.Squantity ? (
-                <Text>
+                <Text style={{color: 'red', marginLeft: 5}}>
                   <ErrorMessage name="Squantity" />
                 </Text>
               ) : null}
@@ -256,7 +256,7 @@ export default function App() {
                 />
               </View>
               {errors.pType && touched.pType ? (
-                <Text>
+                <Text style={{color: 'red', marginLeft: 5}}>
                   <ErrorMessage name="pType" />
                 </Text>
               ) : null}
@@ -269,7 +269,7 @@ export default function App() {
                 />
               </View>
               {errors.barcode && touched.barcode ? (
-                <Text>
+                <Text style={{color: 'red', marginLeft: 5}}>
                   <ErrorMessage name="barcode" />
                 </Text>
               ) : null}
@@ -282,7 +282,7 @@ export default function App() {
                 />
               </View>
               {errors.pUNIT && touched.pUNIT ? (
-                <Text>
+                <Text style={{color: 'red', marginLeft: 5}}>
                   <ErrorMessage name="pUNIT" />
                 </Text>
               ) : null}
@@ -296,7 +296,7 @@ export default function App() {
                 />
               </View>
               {errors.maxRP && touched.maxRP ? (
-                <Text>
+                <Text style={{color: 'red', marginLeft: 5}}>
                   <ErrorMessage name="maxRP" />
                 </Text>
               ) : null}
@@ -309,7 +309,7 @@ export default function App() {
                 />
               </View>
               {errors.QS && touched.QS ? (
-                <Text>
+                <Text style={{color: 'red', marginLeft: 5}}>
                   <ErrorMessage name="QS" />
                 </Text>
               ) : null}
@@ -326,7 +326,7 @@ export default function App() {
                     />
                   </View>
                   {errors.Reorder && touched.Reorder ? (
-                    <Text>
+                    <Text style={{color: 'red', marginLeft: 5}}>
                       <ErrorMessage name="Reorder" />
                     </Text>
                   ) : null}
